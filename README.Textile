@@ -1,0 +1,28 @@
+h1. CI_Memcached
+
+h2. Installation
+
+h3. dependencies
+
+h4. required dependencies
+
+* PHP 5.0.0 or greater
+* Memcached extension
+* Code Igniter
+
+h3. Installation process
+
+*  @cp libraries/Memcached.php application/libraries/@
+ 
+h2. Documentation
+
+you can use Doxygen or phpdoc to produce the standalone full documentation of this library.
+
+h2. Getting help
+
+"https://github.com/mouns/ci-memcache/issues":https://github.com/mouns/ci-memcache/issues
+
+h2. Contributing
+
+"https://github.com/mouns/ci-memcache":https://github.com/mouns/ci-memcache
+
