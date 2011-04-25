@@ -10,9 +10,13 @@ h4. required dependencies
 * Memcached extension
 * Code Igniter
 
+h3. Getting source
+
+* @git clone git://github.com/mouns/ci-memcached.git@
+
 h3. Installation process
 
-*  @cp libraries/Memcached.php application/libraries/@
+*  @cp ci-memcached/libraries/Memcached.php application/libraries/@
  
 h2. Documentation
 
@@ -20,9 +24,9 @@ you can use Doxygen or phpdoc to produce the standalone full documentation of th
 
 h2. Getting help
 
-"https://github.com/mouns/ci-memcache/issues":https://github.com/mouns/ci-memcache/issues
+"https://github.com/mouns/ci-memcached/issues":https://github.com/mouns/ci-memcached/issues
 
 h2. Contributing
 
-"https://github.com/mouns/ci-memcache":https://github.com/mouns/ci-memcache
+"https://github.com/mouns/ci-memcached":https://github.com/mouns/ci-memcached
 
