@@ -235,7 +235,9 @@ class CI_Memcached	{
 	protected function append_or_add($key, $value, $expiration = NULL) {
 		if(!is_int($expiration))
 			$expiration = $this->config['expiration'];
-		return $this->m->append( $key, $value ) or $this->m->add( $key, $value, $expiration ) or $this->m->append_or_add( $key, $value, $expiration );
+		return	$this->m->append( $key, $value )
+		or		$this->m->add( $key, $value, $expiration )
+		or		$this->m->append_or_add( $key, $value, $expiration );
 	}
 
 
